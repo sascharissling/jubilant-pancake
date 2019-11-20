@@ -6,25 +6,20 @@ import styled from "@emotion/styled";
 
 const GameBoard = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: center;
 `;
 
-const GameInfo = styled.div`
-  margin-left: 20px;
-`;
+// const GameInfo = styled.div`
+//   margin-left: 20px;
+// `;
 
 // STYLE End
 
 export default function Game() {
   return (
-    <div>
-      <GameBoard>
-        <Board />
-      </GameBoard>
-      <GameInfo>
-        <div>{/* status */}</div>
-        <ol>{/* TODO */}</ol>
-      </GameInfo>
-    </div>
+    <GameBoard>
+      <Board />
+    </GameBoard>
   );
 }

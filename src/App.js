@@ -12,7 +12,6 @@ const AppContainer = styled.div`
   font-size: calc(10px + 2vmin);
   color: rgba(255, 255, 255, 0.925);
   display: flex;
-  justify-content: center;
   flex-direction: column;
 `;
 // STYLE End

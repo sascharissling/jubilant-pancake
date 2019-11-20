@@ -1,16 +1,30 @@
 import React from "react";
 import Board from "./Board";
+import styled from "@emotion/styled";
+
+// STYLE Start
+
+const GameBoard = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+const GameInfo = styled.div`
+  margin-left: 20px;
+`;
+
+// STYLE End
 
 export default function Game() {
   return (
     <div className="game">
-      <div className="game-board">
+      <GameBoard>
         <Board />
-      </div>
-      <div className="game-info">
+      </GameBoard>
+      <GameInfo>
         <div>{/* status */}</div>
         <ol>{/* TODO */}</ol>
-      </div>
+      </GameInfo>
     </div>
   );
 }

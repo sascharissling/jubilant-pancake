@@ -1,6 +1,7 @@
 import React from "react";
 import Game from "./components/Game";
 import styled from "@emotion/styled";
+import GlobalStyles from "./components/GlobalStyles";
 
 // STYLE Start
 const AppContainer = styled.div`
@@ -19,6 +20,7 @@ const AppContainer = styled.div`
 function App() {
   return (
     <AppContainer>
+      <GlobalStyles />
       <h1>Jubilant Pancake</h1>
       <Game />
     </AppContainer>

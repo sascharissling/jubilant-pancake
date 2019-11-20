@@ -1,6 +1,6 @@
 import React from "react";
 import Square from "./Square";
-import { calculateWinner } from "./helpers";
+import { calculateWinner } from "../utils/helpers";
 import styled from "@emotion/styled";
 import Status from "./Status";
 

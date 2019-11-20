@@ -9,18 +9,15 @@ const Button = styled.button`
     rgba(201, 201, 201, 0.603) 0%,
     rgba(209, 209, 209, 0.753) 100%
   );
-  float: left;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 80px;
   margin-right: 5px;
   margin-top: 5px;
   padding: 0;
   text-align: center;
-  width: 80px;
   border-radius: 5px;
-  box-shadow: 1px 0px 6px slategray;
+  box-shadow: 2px 0px 6px slategray;
   &:hover {
     background-color: rgba(90, 90, 90, 0.575);
   }

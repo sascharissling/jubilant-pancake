@@ -17,7 +17,7 @@ const GameInfo = styled.div`
 
 export default function Game() {
   return (
-    <div className="game">
+    <div>
       <GameBoard>
         <Board />
       </GameBoard>
